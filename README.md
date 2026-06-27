@@ -2,7 +2,7 @@
 
 Generate **onboarding maps** from a codebase scan. Offline. No API key. No cloud.
 
-Part of [Ariadne](https://github.com/Ariadne-Dev) · [Website](https://ariadne.pablovallejo.dev)
+Part of [Ariadne](https://github.com/Ariadne-Dev) · [trail on the web](https://ariadne.pablovallejo.dev/trail)
 
 ## Why
 
@@ -61,6 +61,10 @@ START HERE
 ## How it works
 
 Top-level scan only — skips `node_modules`, `.git`, `dist`. Heuristics for common folder names, `package.json` scripts, README intro paragraph. Fast and honest about limits.
+
+## Pair with thread
+
+Reviewing changes? Use [`thread`](https://github.com/Ariadne-Dev/thread) — `thread explain` walks through a diff with risks and a checklist. **trail** = land cold; **thread** = review changes.
 
 ## License
 
